@@ -1,0 +1,33 @@
+backtest:
+  commission_rate: 0.001
+  initial_capital: 10000.0
+  slippage_pct: 0.0005
+data:
+  default_timeframe: 1h
+  historical_dir: data/historical
+exchange:
+  api_key: ${BINANCE_API_KEY}
+  api_secret: ${BINANCE_API_SECRET}
+  name: binance
+  rate_limit_ms: 200
+  testnet: true
+grid:
+  grid_count: 40
+  grid_type: geometric
+  investment_amount: 10000.0
+  lower_price: 56000
+  stop_loss_price: null
+  symbol: BTC/USDT
+  take_profit_price: null
+  upper_price: 78000
+logging:
+  backup_count: 5
+  level: INFO
+  log_dir: logs
+  max_bytes: 10485760
+risk:
+  daily_loss_limit: 500.0
+  max_drawdown_pct: 0.2
+  max_open_orders: 50
+  max_position_pct: 0.95
+  stop_loss_pct: 0.08

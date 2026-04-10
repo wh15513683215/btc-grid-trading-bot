@@ -1,0 +1,13 @@
+{
+  "total_pnl": 191.52,
+  "total_pnl_pct": 1.92,
+  "sharpe_ratio": 1.234,
+  "max_drawdown": 2.1,
+  "max_drawdown_duration_bars": 1036,
+  "win_rate": 100.0,
+  "total_trades": 198,
+  "avg_profit_per_trade": 249.6251,
+  "profit_factor": Infinity,
+  "calmar_ratio": 2.216,
+  "annualized_return_pct": 4.66
+}

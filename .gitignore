@@ -1,0 +1,15 @@
+.env
+*.pyc
+__pycache__/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.DS_Store
+logs/*.log
+data/historical/*.csv
+data/historical/*.parquet
+.claude/
+*.png
+*.jpg
+*.jpeg
